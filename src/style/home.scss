@@ -1,0 +1,40 @@
+#home {
+  .home {
+    &--title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h2 {
+        width: 900px;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+      }
+
+      img {
+        width: 500px;
+      }
+    }
+    &--kino {
+      padding: 100px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        width: 630px;
+      }
+      &__sup {
+        padding: 0 20px;
+        h1 {
+          color: white;
+          font-weight: 400;
+        }
+        p {
+          width: 500px;
+          color: white;
+          padding: 20px 0;
+        }
+      }
+    }
+  }
+}

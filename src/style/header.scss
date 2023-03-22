@@ -1,0 +1,44 @@
+#header {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  border: 2px solid white;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      width: 150px;
+    }
+    &--nav {
+      .active {
+        color: blueviolet;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        border-radius: 10px;
+        border: 2px solid white;
+      }
+      &__link {
+        color: white;
+        margin: 0 30px;
+        font-size: 20px;
+        padding: 5px 10px;
+        font-weight: 700;
+      }
+    }
+    &--btn {
+      button {
+        padding: 13px 20px;
+        border-radius: 10px;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(177,59,165,1) 35%, rgba(255,0,224,1) 100%);
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        transition: .4s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "src/style/header";
+@import "src/style/footer";
+@import "src/style/home";
+@import "src/style/popular";
+@import "src/style/top_rated";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#App {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
